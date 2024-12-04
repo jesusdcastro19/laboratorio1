@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="styles 2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de clases</h1> 
+    <form>
+       <label>* Nombre: </label>
+       <input type="text" name="Nombre" required="">
+       <label>* Correo Electronico:</label>
+       <input type="email" name="email" required="">
+       <label>* Ingrese su contraseña: </label>
+         <input type="password" name="" required="" minlength="8" >
+        <label >Celular:</label>
+        <input type="tel" name="Cel" maxlength="10">
+        <label >Mensaje:</label>
+        <textarea id="Mensaje" rows="4"></textarea>
+        <label >Pais:</label>
+        <select required="">
+            <option value="" disabled=""  selected="" >* selecciona tu pais </option>
+            <option value="co">Colombia</option>
+            <option value="es">España</option>
+            <option value="mx">Mexico</option>
+            <option value="ar">Argentina</option>
+        </select>
+        <input type="submit" name="" value="Enviar">
+        <p>* campo reququeido...</p>
+        
+    </form>
+    </div>
+</body>
+</html>
